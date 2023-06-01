@@ -5,70 +5,70 @@ as73:
       # Major Blocks
       netblocks:
         - "128.208.0.0/16":
-          name: "WASH-NSF (NET-128-208-0-0-1)"
-          first: "128.208.0.0"
-          last: "128.208.255.255"
+            name: "WASH-NSF (NET-128-208-0-0-1)"
+            first: "128.208.0.0"
+            last: "128.208.255.255"
         - "128.95.0.0/16":
-          name: "WASHINGTON (NET-128-95-0-0-1)"
-          first: "128.95.0.0"
-          last: "128.95.255.255"
+            name: "WASHINGTON (NET-128-95-0-0-1)"
+            first: "128.95.0.0"
+            last: "128.95.255.255"
         - "140.142.0.0/16":
-          name: "UW-SEA (NET-140-142-0-0-1)"
-          first: "140.142.0.0"
-          last: "140.142.255.255"
+            name: "UW-SEA (NET-140-142-0-0-1)"
+            first: "140.142.0.0"
+            last: "140.142.255.255"
         - "198.48.64.0/19":
-          name: "UW-SEA-BLK1 (NET-198-48-64-0-1)"
-          first: "198.48.64.0"
-          last: "198.48.95.255"
+            name: "UW-SEA-BLK1 (NET-198-48-64-0-1)"
+            first: "198.48.64.0"
+            last: "198.48.95.255"
         - "205.175.96.0/19":
-          name: "UW-SEA-BLK2 (NET-205-175-96-0-1)"
-          first: "205.175.96.0"
-          last: "205.175.127.255"
+            name: "UW-SEA-BLK2 (NET-205-175-96-0-1)"
+            first: "205.175.96.0"
+            last: "205.175.127.255"
         - "69.91.128.0/17":
-          name: "UW-SEATTLE-06 (NET-69-91-128-0-1)"
-          first: "69.91.128.0"
-          last: "69.91.255.255"
+            name: "UW-SEATTLE-06 (NET-69-91-128-0-1)"
+            first: "69.91.128.0"
+            last: "69.91.255.255"
         - "173.250.128.0/17":
-          name: "UW-SEATTLE-07 (NET-173-250-128-0-1)"
-          first: "173.250.128.0"
-          last: "173.250.255.255"
+            name: "UW-SEATTLE-07 (NET-173-250-128-0-1)"
+            first: "173.250.128.0"
+            last: "173.250.255.255"
         - "108.179.128.0/18":
-          name: "UW-SEATTLE-08 (NET-108-179-128-0-1)"
-          first: "108.179.128.0"
-          last: " 108.179.191.255"
+            name: "UW-SEATTLE-08 (NET-108-179-128-0-1)"
+            first: "108.179.128.0"
+            last: " 108.179.191.255"
         - "204.69.8.0/21":
-          name: "NWHSEA (NET-204-69-8-0-1)"
-          first: "204.69.8.0"
-          last: "204.69.15.255"
+            name: "NWHSEA (NET-204-69-8-0-1)"
+            first: "204.69.8.0"
+            last: "204.69.15.255"
         # Other Allocations (historical uses or projects) 
         - "192.42.145.0/24":
-          name: "UW-ACSNET (NET-192-42-145-0-1)"
-          first: "192.42.145.0"
-          last: "192.42.145.255"
+            name: "UW-ACSNET (NET-192-42-145-0-1)"
+            first: "192.42.145.0"
+            last: "192.42.145.255"
         - "192.42.144.0/24":
-          name: "UW-ADPNET (NET-192-42-144-0-1)"
-          first: "192.42.144.0"
-          last: "192.42.144.255"
+            name: "UW-ADPNET (NET-192-42-144-0-1)"
+            first: "192.42.144.0"
+            last: "192.42.144.255"
         - "192.26.136.0/24":
-          name: "WASHINGTON-TEMP (NET-192-26-136-0-1)"
-          first: "192.26.136.0"
-          last: "192.26.136.255"
+            name: "WASHINGTON-TEMP (NET-192-26-136-0-1)"
+            first: "192.26.136.0"
+            last: "192.26.136.255"
     ipv6:
       netblocks: 
         - "2607:4000::/32":
-          name: "UW-IPV6-BLK1 (NET6-2607-4000-1)"
-          first: "2607:4000::"
-          last: "2607:4000:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF"
+            name: "UW-IPV6-BLK1 (NET6-2607-4000-1)"
+            first: "2607:4000::"
+            last: "2607:4000:FFFF:FFFF:FFFF:FFFF:FFFF:FFFF"
         - "fd73:a9bd:11bb::/48":
-          name: "UW ULA space fd73:a9bd:11bb::/48"
-          first: "fd73:a9bd:11bb::"
-          last: "fd73:a9bd:11bb:FFFF:FFFF:FFFF:FFFF:FFFF"
+            name: "UW ULA space fd73:a9bd:11bb::/48"
+            first: "fd73:a9bd:11bb::"
+            last: "fd73:a9bd:11bb:FFFF:FFFF:FFFF:FFFF:FFFF"
   private:
     ipv4:
       netblocks:
       - "172.16.0.0/12":
-        name: "P172"
+          name: "P172"
       - "10.0.0.0/8":
-        name: "10net"
+          name: "10net"
       - "192.168.0.0/16":
-        name: "192.168 - unrouted"
+          name: "192.168 - unrouted"
