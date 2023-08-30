@@ -1,4 +1,4 @@
-gcp:
+aws:
   public:
     ipv4:
       addresses:
