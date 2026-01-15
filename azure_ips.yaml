@@ -1,0 +1,6 @@
+azure:
+  public:
+    ipv4:
+      addresses: null
+    ipv6:
+      addresses: null
